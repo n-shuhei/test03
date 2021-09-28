@@ -1,0 +1,44 @@
+/* #title {
+    color: rgb(54, 30, 189);
+}
+
+.g {
+    color: rgb(30, 189, 149);
+}
+
+h1 {
+    color: rgb(189, 30, 123);
+} */
+
+/* h2.title {
+    color: rgb(189, 30, 30);
+}
+
+h2 .title {
+    color: rgb(189, 30, 30);
+} */
+
+body {
+    background-color: turquoise;
+}
+#title {
+    color: lightcoral;
+}
+
+li {
+    color: lightcoral;
+}
+/* li a[href*="youtube"] {
+    color: initial;
+} */
+li a[href] {
+    color: unset;
+}
+
+div:hover {
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+.fix {
+    all: unset;
+}
